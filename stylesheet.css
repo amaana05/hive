@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/gridbackground.png);
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Anybody', cursive;
+    
+}
+
+h1{
+    font-size: 7.5rem;
+}
+
+.heaveText{
+    color: rgb(219, 36, 219);
+    text-shadow: 8px 8px rgb(43, 3, 43);
+}
+
+.button{
+    text-align: center;
+    display: inline-block;
+}
+
+.heaveListButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: rgb(219, 36, 219);
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+} 
+
+.heaveRollButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #FAE986;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 25px 15px 25px;
+    box-shadow: 8px 8px;
+}   
+
+.heaveTossButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #82CBCC;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+} 
+
+
+.heaveWordButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #6C74BB;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+} 
+
+
+.heaveXButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #E8A2A2;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+} 
+
+footer{
+    margin-top: 10%;
+    color: #232931;
+    text-align: center;
+    font-family: "Anybody";
+    
+}
