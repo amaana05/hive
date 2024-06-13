@@ -3,15 +3,19 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(images/gridbackground.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .container{
-    width: 90%;
+    text-align: center;
+    width: 100%;
     margin: auto;
     text-align: center;
     font-family: 'Anybody', cursive;
-    
 }
 
 h1{
@@ -91,4 +95,15 @@ footer{
     text-align: center;
     font-family: "Anybody";
     
+}
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 5rem;
+    }
+
+    .button{
+        margin: 15px 10px 15px 10px;
+    }
 }

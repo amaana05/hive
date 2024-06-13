@@ -1,13 +1,13 @@
 body{
     background-color: #C5FFF8;
     height: 100vh;
-    background-image: url(images/gridbackground.png);
+    background-image: url(../images/gridbackground.png);
     margin: 0;
     padding: 0;
 }
 
 .container{
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
     font-family: 'Anybody', cursive;
@@ -60,4 +60,15 @@ footer{
     text-align: center;
     font-family: "Anybody";
     
+}
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 5rem;
+    }
+
+    img{
+        width: 50%;
+    }
 }
