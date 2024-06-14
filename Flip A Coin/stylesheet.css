@@ -21,33 +21,26 @@ h1{
     
 }
 
-.dice{
+.coin{
     text-align: center;
     display: inline-block;
 }
 
-.player1Button{
+#flipButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
     background-color: #82CBCC;
     border: none;
-    margin: 10px 10px 20px 10px;
+    margin: 20px 10px 20px 10px;
     padding: 15px 25px 15px 25px;
     box-shadow: 8px 8px;
 }
 
-.player2Button{
-    font-size: 3rem;
-    font-family: 'Anybody', cursive;
-
-    background-color: #82CBCC;
-    border: none;
-    margin: 10px 10px 20px 10px;
-    padding: 15px 25px 15px 25px;
-    box-shadow: 8px 8px;
+#flipButton:active{
+    box-shadow: 12px 12px;
+    transform: scale(0.9);
 }
-
 
 img{
     width: 60%;

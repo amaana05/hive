@@ -20,6 +20,8 @@ body{
 
 h1{
     font-size: 7.5rem;
+    margin-top: 0px;
+    text-shadow: 8px 8px rgb(72, 68, 72);
 }
 
 .hiveText{
@@ -54,7 +56,7 @@ h1{
     box-shadow: 8px 8px;
 }   
 
-.hiveTossButton{
+.hiveFlipButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 

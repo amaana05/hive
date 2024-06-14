@@ -24,7 +24,7 @@ image2.setAttribute("src", randomImageSource2);
 
 
 
-// HEADING AND BACKGROUND COLOR CHANGE
+// HEADING CHANGES AND RESULT
 
 if(randomNumber1 > randomNumber2)
     {
