@@ -17,7 +17,6 @@ h1{
     margin: 30px;
     font-family: 'Anybody', cursive;
     color: rgb(219, 36, 219);
-    text-shadow: 8px 8px rgb(43, 3, 43);
     
 }
 
@@ -58,6 +57,7 @@ footer{
 {
     h1{
         font-size: 5rem;
+        margin-top: 20px;
     }
 
     img{
