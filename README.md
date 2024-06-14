@@ -18,5 +18,5 @@
 
 **more additions coming soon...**
 
-Created by: Amaan A
-Date: 13th June 2024
+Created by: Amaan A <br/>
+Date: 13th June 2024  
