@@ -71,4 +71,8 @@ footer{
     img{
         width: 50%;
     }
+
+    body{
+        background-image: url(../images/gridbackground\ mobile.png);
+    }
 }

@@ -22,7 +22,7 @@ h1{
     font-size: 7.5rem;
 }
 
-.heaveText{
+.hiveText{
     color: rgb(219, 36, 219);
     text-shadow: 8px 8px rgb(43, 3, 43);
 }
@@ -32,7 +32,7 @@ h1{
     display: inline-block;
 }
 
-.heaveListButton{
+.hiveListButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
@@ -43,7 +43,7 @@ h1{
     box-shadow: 8px 8px;
 } 
 
-.heaveRollButton{
+.hiveRollButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
@@ -54,7 +54,7 @@ h1{
     box-shadow: 8px 8px;
 }   
 
-.heaveTossButton{
+.hiveTossButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
@@ -66,7 +66,7 @@ h1{
 } 
 
 
-.heaveWordButton{
+.hiveWordButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
@@ -78,7 +78,7 @@ h1{
 } 
 
 
-.heaveXButton{
+.hiveXButton{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
@@ -105,5 +105,9 @@ footer{
 
     .button{
         margin: 15px 10px 15px 10px;
+    }
+
+    body{
+        background-image: url(images/gridbackground\ mobile.png);
     }
 }
