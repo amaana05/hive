@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/gridbackground.png);
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto;
+}
+
+.leftSide{
+    background-color: rgb(58, 56, 53);
+    width: 100%
+}
+
+.rightSide{
+    background-color: bisque;
+    width: 100%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.searchBar{
+    display: inline-block;
+}
+.pokédexButton{
+    display: inline-block;
+
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #6C74BB;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+}
