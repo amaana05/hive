@@ -16,14 +16,16 @@
     <div class="container">
 
         <div class="leftSide">
-            <img class="image" src="../images/heave icon.png">
+            <img id="pokemonSprite" src="">
         </div>
 
         <div class="rightSide">
-            <input class="searchBar" type="text" placeholder="Pokémon name">
-            <button class="pokédexButton">Search</button>
+            <input id="pokemonName" type="text" placeholder="Pokémon Name">
+            <button onclick="fetchData()" class="pokédexButton">Search</button>
         </div>
     </div>
     
+
+    <script src="./index.js"></script>
 </body>
 </html>

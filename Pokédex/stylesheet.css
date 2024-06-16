@@ -2,7 +2,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url(../images/gridbackground.png);
+    background-image: url(./images/background\ wallpaper\ 1.jpg);
 
     display: flex;
     align-content: center;
@@ -19,30 +19,97 @@ body{
 }
 
 .leftSide{
-    background-color: rgb(58, 56, 53);
-    width: 100%
+
+    width: 50%
+}
+
+#pokemonSprite{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rightSide{
-    background-color: bisque;
-    width: 100%;
+    width: 50%;
 
     align-content: center;
     justify-content: center;
 }
 
-.searchBar{
+#pokemonName{
     display: inline-block;
+
+    padding: 10px 35px 10px 15px;
+    font-family: 'Anybody', cursive;
 }
+
 .pokédexButton{
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
-    background-color: #6C74BB;
+    background-color: #f4dc26;
     border: none;
     padding: 15px 25px 15px 25px;
     margin: 10px 10px 10px 10px;
     box-shadow: 8px 8px;
+}
+
+.pokédexButton:active{
+    box-shadow: 12px 12px;
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .container{
+        display: block;
+    }
+    .rightSide{
+        width: 100%;
+        display: block;
+    }
+
+    .leftSide{
+        width: 100%;
+        display: block;
+    }
+
+    .pokédexButton
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px)
+{
+
+    .container{
+        display: block;
+    }
+    .rightSide{
+        width: 100%;
+        display: block;
+    }
+
+    .leftSide{
+        width: 100%;
+        display: block;
+    }
+
+    .pokédexButton
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
 }
