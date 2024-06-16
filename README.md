@@ -15,8 +15,13 @@
 - A simple dice roll game for two players and only one winner. 
 - Handy for settling silly bets.
 
+## Pokédex
+
+- Basic Pokedex tool which shows the image of the Pokemon.
+- Gotta catch them all.
 
 **more additions coming soon...**
+
 
 Created by: Amaan A <br/>
 Date: 13th June 2024  
