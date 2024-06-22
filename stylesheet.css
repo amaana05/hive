@@ -90,6 +90,25 @@ h1{
     box-shadow: 8px 8px;
 } 
 
+
+.MutualFButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #57c9e8;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+} 
+
+
+.activeButton:hover{
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+    box-shadow: 15px 15px;
+}
+
 footer{
     margin-top: 10%;
     color: #232931;
@@ -102,10 +121,11 @@ footer{
 {
     h1{
         font-size: 5rem;
+        margin-top: 30px;
     }
 
     .button{
-        margin: 15px 10px 15px 10px;
+        margin: 10px 10px 10px 10px;
     }
 
     body{
