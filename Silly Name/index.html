@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Name Generator</title>
+</head>
+<body>
+    <h1>Silly Name Generator</h1>
+    <button id="getButton">Get Silly Name</button>
+    <p id="nameText"></p>
+
+    <script src="https://unpkg.com/sillyname/index.js"></script>
+    <script type="module">
+
+        import generateName from 'sillyname';
+
+
+        document.getElementById('getButton').addEventListener('click', function(){
+            var sillyName = sillyname();
+            document.getElementById('nameText').innerHTML = `You are ${sillyName}.`;
+        });
+    </script>
+</body>
+</html>
