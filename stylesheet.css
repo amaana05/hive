@@ -89,6 +89,17 @@ h1{
     box-shadow: 8px 8px;
 } 
 
+.randomNoButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: rgb(219, 36, 219);
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+}
+
 
 .hiveXButton{
     font-size: 3rem;
