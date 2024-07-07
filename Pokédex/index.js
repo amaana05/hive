@@ -5,6 +5,8 @@ async function fetchData(){
     try{
 
         const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+        const pokemonName1 = document.getElementById("pokemonName1");
+
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
         if(!response.ok){
@@ -17,6 +19,8 @@ async function fetchData(){
 
         imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
+
+        pokemonName1.textContent = data.name;
     }
     catch(error){
         console.error(error);

@@ -23,6 +23,11 @@ body{
     width: 50%
 }
 
+#pokemonName1{
+    font-family: 'Anybody', cursive;
+    margin-top: 0px;
+}
+
 #pokemonSprite{
     width: 50%;
     display: block;
