@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    margin: auto;
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url(../images/gridbackground.png);
+
+}
+
+#container{
+    height: 300px;
+    width: 600px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, #767af9, #c789fd);
+
+
+    border-radius: 13px;
+}
+
+h1{
+    margin: auto;
+    padding: 70px 50px 20px 50px;
+}
+
+
+button{
+    margin: 30px 0px 50px 0px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 7px;
+
+    background: linear-gradient(135deg, #5359ff, #bc79f7);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 4px 4px #4e3759;
+}
+
+button:active{
+    padding: 10px 25px;
+    box-shadow: 4px 4px #4e3759;
+}
