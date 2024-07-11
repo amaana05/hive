@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'anybody';
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+#colorDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+
+    border: 4px dashed;
+    border-radius: 30px;
+
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+#color-tag{
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 150px;
+    height: 40px;
+    padding: 2px;
+
+    border-radius: 7px;
+}

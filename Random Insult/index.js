@@ -1,7 +1,7 @@
 const randomInsult = document.getElementById("randomInsult");
 
 
-getInsult();
+// getInsult();
 
 async function getInsult(){
     

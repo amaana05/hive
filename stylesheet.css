@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
     background-image: url(images/gridbackground.png);
 
@@ -88,6 +89,17 @@ h1{
     margin: 10px 10px 10px 10px;
     box-shadow: 8px 8px;
 } 
+
+.colorPickerButton{
+    font-size: 3rem;
+    font-family: 'Anybody', cursive;
+
+    background-color: #57c9e8;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+}
 
 .randomNoButton{
     font-size: 3rem;

@@ -1,7 +1,7 @@
 body{
 
     height: 100vh;
-    background-image: linear-gradient(135deg, rgb(184, 0, 194), rgb(0, 195, 202));
+    background-color: white;
 }
 
 #container{
@@ -26,6 +26,9 @@ body{
     font-size: 2rem;
     font-family: 'Anybody', cursive;
     font-weight: 600;
+    background-color: #ff4040;
+
+    border: none;
 
     padding: 20px 25px;
     margin: 10px;
@@ -38,9 +41,7 @@ body{
 .button:active{
     box-shadow: 12px 12px;
     transform: scale(0.9);
-
-    background-image: linear-gradient(135deg, rgba(184, 0, 194, 0.676), rgba(0, 195, 202, 0.466));
-
+    
     border: none;
 }
 
