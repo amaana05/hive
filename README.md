@@ -1,6 +1,7 @@
 # hive
 
 **hive is a handy tool kit site with all the small tools one needs in day-to-day life.** 
+- This consists of every small tool I'm writing while learning JS.
 - The design is inspired from the 90s design aesthetics. 
 - All the pictures and images used in the project are created with Figma.
  
