@@ -31,7 +31,8 @@ body{
     text-align: center;
 
     font-size: 5rem;
-    color: rgb(250, 178, 178);
+    color: rgb(250, 191, 191);
+    backdrop-filter: blur(0.5px);
 
 
     padding: 10px 40px 5px 40px;
@@ -64,14 +65,16 @@ button:active{
 {
 
     body{
-        background: url(./images/kanye\ meme\ image.webp);
+        background: url(./images/kanye\ red\ background\ 600px.png);
         background-repeat: no-repeat;
         background-size: cover;
-        backdrop-filter: blur(2px);
+        color: rgb(255, 220, 220);
+        backdrop-filter: blur(1px);
     }
     #kanyeGospel{
         font-size: 3rem;
-        color: rgb(255, 255, 255);
+        color: rgb(250, 191, 191);
+        backdrop-filter: blur(0.5px);
     }
 }
 
@@ -79,17 +82,19 @@ button:active{
 {
 
     body{
-        background: url(./images/kanye\ meme\ image.webp);
+        background: url(./images/kanye\ red\ background\ 900px.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        backdrop-filter: blur(2px);
+        backdrop-filter: blur(0.5px);
+        /* backdrop-filter: blur(2px); */
     }
 
     #kanyeGospel{
         font-size: 3.5rem;
-        color: rgb(255, 255, 255);
+        color: rgb(252, 199, 199);
 
         background-repeat: no-repeat;
         background-size: cover;
+        backdrop-filter: blur(1px);
     }
 }
