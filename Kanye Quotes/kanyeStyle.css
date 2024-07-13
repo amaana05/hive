@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'anybody';
+    background: url(./images/kanye\ red\ background\ full.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kanyeContainer{
+    max-width: 200px;
+    margin: 0;
+
+   
+}
+
+#kanyeContainer img{
+    width: 100%;
+}
+
+
+#kanyeGospel{
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 5rem;
+    color: rgb(250, 178, 178);
+
+
+    padding: 10px 40px 5px 40px;
+}
+
+#kanyeButton{
+    margin: auto;
+    width: 50%;
+
+    text-align: center;
+}
+
+button{
+    font-size: 1.5rem;
+    font-family: "anybody";
+
+    background-color: #d61919;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 8px 8px;
+}
+
+button:active{
+    box-shadow: 12px 12px;
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px)
+{
+
+    body{
+        background: url(./images/kanye\ red\ background\ 600px.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #kanyeGospel{
+        font-size: 3.5rem;
+        color: rgb(250, 178, 178);
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px)
+{
+
+    body{
+        background: url(./images/kanye\ meme\ image.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #kanyeGospel{
+        font-size: 4rem;
+        color: rgb(250, 178, 178);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
