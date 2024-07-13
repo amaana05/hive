@@ -64,13 +64,14 @@ button:active{
 {
 
     body{
-        background: url(./images/kanye\ red\ background\ 600px.png);
+        background: url(./images/kanye\ meme\ image.webp);
         background-repeat: no-repeat;
         background-size: cover;
+        backdrop-filter: blur(2px);
     }
     #kanyeGospel{
-        font-size: 3.5rem;
-        color: rgb(250, 178, 178);
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -81,11 +82,12 @@ button:active{
         background: url(./images/kanye\ meme\ image.webp);
         background-repeat: no-repeat;
         background-size: cover;
+        backdrop-filter: blur(2px);
     }
 
     #kanyeGospel{
-        font-size: 4rem;
-        color: rgb(250, 178, 178);
+        font-size: 3.5rem;
+        color: rgb(255, 255, 255);
 
         background-repeat: no-repeat;
         background-size: cover;
