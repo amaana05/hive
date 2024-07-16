@@ -33,7 +33,7 @@ const body = document.querySelector('body');
 const date = new Date();
 const hour = date.getHours();
 
-console.log(hour);
+//console.log(hour);
 
 
 if(hour >= 20 && hour < 5){
