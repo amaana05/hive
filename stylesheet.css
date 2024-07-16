@@ -35,15 +35,17 @@ h1{
     text-shadow: 8px 8px rgb(219, 36, 219);
 }
 
-p{
-    font-weight: bold;
-    color: rgb(219, 36, 219);
+.subHeading{
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 100px;
+    padding: 3px;
+
+    background-color: rgba(219, 36, 219, 0.671);
 }
 
-p:hover{
+.subHeading:hover{
     color: black;
 }
 
@@ -229,16 +231,27 @@ footer{
         margin-top: 30px;
     }
 
-    p{
-        font-weight: bold;
-        color: rgb(219, 36, 219);
-        font-size: 15px;
+    .subHeading{
+        color: rgb(255, 255, 255);
+        font-size: 18px;
         margin-top: 20px;
         margin-bottom: 60px;
+        padding: 3px;
+    
+        background-color: rgb(219, 36, 219);
     }
+    
 
     .button{
         margin: 10px 10px 10px 10px;
+    }
+
+    #githubLink{
+        margin-right: 5px;
+    }
+
+    #twitterLink{
+        margin-left: 5px;
     }
 
     body{
