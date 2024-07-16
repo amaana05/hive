@@ -120,6 +120,33 @@ body{
     
         text-align: center;
     }
+
+    .nightQuote{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    
+        font-family: 'anybody', cursive;
+        color: rgb(206, 206, 206);
+    }
+    
+    .nightAuthor{
+        font-family: 'anybody', cursive;
+        color: rgb(206, 206, 206);
+    
+        text-align: center;
+    }
+    
+    .nightButtonStyle{
+        font-size: 1.5rem;
+        font-family: "anybody";
+        color: rgba(233, 233, 233, 0.6);
+    
+        background-color: #4646466e;
+        border: none;
+        padding: 15px 25px 15px 25px;
+        margin: 10px 10px 10px 10px;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 601px)
@@ -139,5 +166,32 @@ body{
         color:black;
     
         text-align: center;
+    }
+
+    .nightQuote{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    
+        font-family: 'anybody', cursive;
+        color: rgb(206, 206, 206);
+    }
+    
+    .nightAuthor{
+        font-family: 'anybody', cursive;
+        color: rgb(206, 206, 206);
+    
+        text-align: center;
+    }
+    
+    .nightButtonStyle{
+        font-size: 1.5rem;
+        font-family: "anybody";
+        color: rgba(233, 233, 233, 0.6);
+    
+        background-color: #4646466e;
+        border: none;
+        padding: 15px 25px 15px 25px;
+        margin: 10px 10px 10px 10px;
     }
 }
