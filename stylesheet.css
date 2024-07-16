@@ -22,6 +22,7 @@ body{
 h1{
     font-size: 7.5rem;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .hiveText{
@@ -32,6 +33,18 @@ h1{
 .hiveText:hover{
     color: black;
     text-shadow: 8px 8px rgb(219, 36, 219);
+}
+
+p{
+    font-weight: bold;
+    color: rgb(219, 36, 219);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+p:hover{
+    color: black;
 }
 
 .button{
@@ -190,6 +203,20 @@ footer{
     color: black;
 }
 
+#githubLink{
+    background-color: rgb(88, 86, 88);
+    padding: 3px;
+    color: white;
+    margin-right: 30px;
+}
+
+#twitterLink{
+    background-color: #26a7de;
+    padding: 3px;
+    color: white;
+    margin-left: 30px;
+}
+
 .highlight{
     background-color: rgba(219, 36, 219, 0.47);
     padding: 3px
@@ -200,6 +227,14 @@ footer{
     h1{
         font-size: 5rem;
         margin-top: 30px;
+    }
+
+    p{
+        font-weight: bold;
+        color: rgb(219, 36, 219);
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 60px;
     }
 
     .button{
