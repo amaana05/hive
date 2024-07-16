@@ -33,11 +33,11 @@ const body = document.querySelector('body');
 const date = new Date();
 const hour = date.getHours();
 
-//console.log(hour);
+console.log(hour);
 
 
-if(hour >= 20 && hour < 5){
-    body.style.backgroundImage = "url('./images/night.jpg')";
+if(hour >= 20 && hour <= 23 || hour >=0 && hour < 5){
+    body.style.backgroundImage = "url('images/night.jpg')";
     quote.classList.add('nightQuote');
     author.classList.add('nightAuthor');
     button.classList.add('nightButtonStyle');
@@ -57,9 +57,9 @@ else if(hour >=17 && hour < 20){
 
 
 
-// hour >= 20 || hour < 5 --- night
-// hour >=5 || hour < 12 --- morning
-// hour >=12 || hour < 17 --- afternoon
-// hour >=17 || hour < 20 --- evening
+// hour >= 20 && hour <= 23 || hour >= 0 && hour < 5 --- night
+// hour >=5 && hour < 12 --- morning
+// hour >=12 && hour < 17 --- afternoon
+// hour >=17 && hour < 20 --- evening
 
 
