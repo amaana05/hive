@@ -2,6 +2,7 @@
 
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
+const button = document.getElementById("button");
 
 async function getQuote(){
     
@@ -26,7 +27,7 @@ async function getQuote(){
 }
 
 
-        //CHANING THE BACKGROUND IMAGE BASED ON THE TIME OF THE DAY
+        //CHANING THE BACKGROUND IMAGE AND FONT STYLES BASED ON THE TIME OF THE DAY
 
 const body = document.querySelector('body');
 const date = new Date();
@@ -35,17 +36,23 @@ const hour = date.getHours();
 console.log(hour);
 
 
-if(hour >= 20 || hour < 5){
-    body.style.backgroundImage = "url('./images/night.png')";
+if(hour >= 20 && hour < 5){
+    body.style.backgroundImage = "url('./images/night.jpg')";
+    quote.classList.add('nightQuote');
+    author.classList.add('nightAuthor');
+    button.classList.add('nightButtonStyle');
 } 
-else if (hour >=5 || hour < 12) {
+else if (hour >=5 && hour < 12) {
     body.style.backgroundImage = "url('./images/morning.jpg')";
 }
-else if (hour >=12 || hour < 17){
+else if (hour >=12 && hour < 17){
     body.style.backgroundImage = "url('./images/afternoon.jpg')";
 }
-else{
+else if(hour >=17 && hour < 20){
     body.style.backgroundImage = "url('./images/evening.jpg')";
+    quote.classList.add('nightQuote');
+    author.classList.add('nightAuthor');
+    button.classList.add('nightButtonStyle');
 }
 
 
@@ -54,3 +61,5 @@ else{
 // hour >=5 || hour < 12 --- morning
 // hour >=12 || hour < 17 --- afternoon
 // hour >=17 || hour < 20 --- evening
+
+
