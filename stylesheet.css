@@ -46,7 +46,11 @@ h1{
 }
 
 .subHeading:hover{
-    color: black;
+    background-color: #000000;
+}
+
+p{
+    margin-bottom: 80px;
 }
 
 .button{
@@ -136,7 +140,7 @@ h1{
     font-size: 3rem;
     font-family: 'Anybody', cursive;
 
-    background-color: rgb(219, 36, 219);
+    background-color: rgb(254, 211, 81);
     border: none;
     padding: 15px 25px 15px 25px;
     margin: 10px 10px 10px 10px;
@@ -238,7 +242,7 @@ footer{
         margin-bottom: 60px;
         padding: 3px;
     
-        background-color: rgb(219, 36, 219);
+        background-color: rgba(219, 36, 219, 0.671);
     }
     
 
