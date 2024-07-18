@@ -202,11 +202,9 @@ p{
 footer{
     margin-top: 10%;
     padding: 3px;
-    color: #232931;
+    color: #ffffff;
     text-align: center;
     font-family: "Anybody";
-
-    color: black;
 }
 
 #githubLink{
@@ -227,6 +225,18 @@ footer{
     background-color: rgba(219, 36, 219, 0.47);
     padding: 3px
 }
+
+        /* DARK MODE THEME */
+
+.darkModeBody{
+    background-image: url(images/gridbackground\ dark.png);
+}
+
+.darkModeHeading{
+    color: rgb(219, 36, 219);
+    text-shadow: 8px 8px rgb(43, 3, 43)
+}
+
 
 @media screen and (max-width: 600px)
 {
@@ -260,5 +270,14 @@ footer{
 
     body{
         background-image: url(images/gridbackground\ mobile.png);
+    }
+
+    .darkModeBody{
+        background-image: url(images/gridbackground\ dark\ mobile.png);
+    }
+    
+    .darkModeHeading{
+        color: rgb(219, 36, 219);
+        text-shadow: 8px 8px rgb(43, 3, 43);
     }
 }
