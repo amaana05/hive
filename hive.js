@@ -7,7 +7,7 @@ const hour = new Date().getHours();
 
 
 
-if(hour >= 15 && hour < 23 || hour >= 0 && hour < 7){
+if(hour >= 19 && hour < 23 || hour >= 0 && hour < 7){
     body.classList.add('darkModeBody');
     heading.classList.add('darkModeHeading');
 }
